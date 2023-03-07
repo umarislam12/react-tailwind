@@ -2,10 +2,10 @@
   "name": "newslatterlp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://umarislam12.github.io/landing-page-tailwind",
+  "homepage": "https://umarislam12.github.io/react-tailwind",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
